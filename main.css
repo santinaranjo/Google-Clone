@@ -106,3 +106,39 @@ justify-content: center;
 .main-lang__item {
     margin: 1.5rem 0.5rem;
 }
+
+.footer {
+    width: 100%;
+    height: 6rem;
+}
+
+.footer-lang {
+    display: flex;
+    align-items: center;
+    padding-left: 3rem;
+    height: 3rem;
+    background-color: rgb(235, 235, 235);
+    border-bottom: 0.1rem solid rgb(177, 177, 177);
+}
+
+.footer-lang span, .footer-links__lr li {
+    color: rgb(75, 75, 75)
+}
+
+.footer-links {
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(235, 235, 235);
+}
+
+.footer-links__lr {
+    list-style-type: none;
+    display: flex;
+    padding: 0 2rem;
+}
+
+.footer-links__lr li {
+    padding: 0 1rem;
+}
